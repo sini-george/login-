@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BuyIt!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative;
+  }
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#homepage">BuyIt!</a><!--id daal-->
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          
+		  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Men<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="home.html" class="hyper">hola</a></li>
+              <li><a href="#section1">Section 4-2</a></li>
+            </ul>
+			<li class="dropdown">
+           <a class="dropdown-toggle" data-toggle="dropdown" href="women.html">Women<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+             <li><a href="#dress">Dresses</a></li>
+								<li><a href="#section3">Sarees</a></li>
+								<li><a href="#section41">Skirts</a></li>
+								<li><a href="#section42">Jeans</a></li>
+								<li><a href="#section2">Shirts</a></li>
+            </ul>
+		<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Chidren<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section3">Section 4-1</a></li>
+              <li><a href="#section3">Section 4-2</a></li>
+            </ul>
+          <li><a href="payment.html">Payment</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Sale <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Section 4-1</a></li>
+              <li><a href="#section42">Section 4-2</a></li>
+            </ul>
+          </li>
+		  
+
+		  </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<div id="section1" class="container-fluid">
+  <div class="content">
+	<div class="container">
+		<div class="col-md-4">
+			<div >
+				<h3>Categories</h3>
+					<div >
+						<div >
+							<ul>
+								<li><a href="#dress">Dresses</a></li>
+								<li><a href="#section3">Sarees</a></li>
+								<li><a href="#section41">Skirts</a></li>
+								<li><a href="#section42">Jeans</a></li>
+								<li><a href="#section2">Shirts</a></li>
+							</ul>
+						</div>
+					</div>
+			</div>
+			<!--<div >
+				<h3>Color</h3>
+				<div >
+					<div>
+						<ul>
+							<li><a href="#"><i></i> Red(5)</a></li>
+							<li><a href="#"><i></i> Brown(2)</a></li>
+							<li><a href="#"><i></i> Yellow(3)</a></li>
+							<li><a href="#"><i></i> Violet(6)</a></li>
+							<li><a href="#"><i></i> Orange(2)</a></li>
+							<li><a href="#"><i></i> Blue(1)</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>-->
+			<div >
+				<h3>Size</h3>
+				<div >
+					<div >
+						<ul>
+							<li><a href="#">Medium</a></li>
+							<li><a href="#">Large</a></li>
+							<li><a href="#">Extra Large</a></li>
+							<li><a href="#">Small</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div >
+				
+			</div>
+		</div>
+		<div id="dress" class="col-md-8 col-sm-8 women-dresses">
+			<div class="women-set1">
+				<div id="dress" class="col-md-4" data-wow-delay=".5s">
+					<a href="single.html"><div class="product-img">
+						<img src="images/wp1.jpg" alt="" />
+						<div class="p-mask">
+							<form action="#" method="post">
+								<input type="hidden" name="cmd" value="_cart" />
+								<input type="hidden" name="add" value="1" /> 
+								<input type="hidden" name="w3ls1_item" value="Pencil dress" /> 
+								<input type="hidden" name="amount" value="50.00" /> 
+								<button type="submit">Add to cart</button>
+							</form>
+						</div>
+					</div></a>
+					
+					<h4>Pencil dress</h4>
+					<h5>$50.00</h5>
+				</div>
+				<div id="dress" class="col-md-4  data-wow-delay=".5s">
+					<a href="single.html"><div class="product-img">
+						<img src="images/wp4.jpg" alt="" />
+						<div class="p-mask">
+							<form action="#" method="post">
+								<input type="hidden" name="cmd" value="_cart" />
+								<input type="hidden" name="add" value="1" /> 
+								<input type="hidden" name="w3ls1_item" value="Casual dress" /> 
+								<input type="hidden" name="amount" value="70.00" /> 
+								<button type="submit" > Add to cart</button>
+							</form>
+						</div>
+					</div></a>
+					
+					<h4>Casual dress</h4>
+					<h5>$70.00</h5>
+				</div>
+				<div id="dress" class="col-md-4 women-grids wp3 animated wow slideInUp" data-wow-delay=".5s">
+					<a href="single.html"><div class="product-img">
+						<img src="images/wp3.jpg" alt="" />
+						<div class="p-mask">
+							<form action="#" method="post">
+								<input type="hidden" name="cmd" value="_cart" />
+								<input type="hidden" name="add" value="1" /> 
+								<input type="hidden" name="w3ls1_item" value="Casual dress" /> 
+								<input type="hidden" name="amount" value="90.00" /> 
+								<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+							</form>
+						</div>
+					</div></a>
+					
+					<h4>Casual dress</h4>
+					<h5>$90.00</h5>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="women-set2">
+				<div id="dress" class="col-md-4 women-grids wp4 animated wow slideInUp" data-wow-delay=".5s">
+					<a href="single.html"><div class="product-img">
+						<img src="images/wp2.jpg" alt="" />
+						<div class="p-mask">
+							<form action="#" method="post">
+								<input type="hidden" name="cmd" value="_cart" />
+								<input type="hidden" name="add" value="1" /> 
+								<input type="hidden" name="w3ls1_item" value="Casual dress" /> 
+								<input type="hidden" name="amount" value="100.00" /> 
+								<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+							</form>
+						</div>
+					</div></a>
+				
+					<h4>Casual dress</h4>
+					<h5>$100.00</h5>
+				</div>
+				<div class="col-md-4 women-grids wp5 animated wow slideInUp" data-wow-delay=".5s">
+					<a href="single.html"><div class="product-img">
+						<img src="images/wp5.jpg" alt="" />
+						<div class="p-mask">
+							<form action="#" method="post">
+								<input type="hidden" name="cmd" value="_cart" />
+								<input type="hidden" name="add" value="1" /> 
+								<input type="hidden" name="w3ls1_item" value="Casual dress" /> 
+								<input type="hidden" name="amount" value="120.00" /> 
+								<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+							</form>
+						</div>
+					</div></a>
+					
+					<h4>Casual dress</h4>
+					<h5>$120.00</h5>
+				</div>
+				<div class="col-md-4 women-grids wp6 animated wow slideInUp" data-wow-delay=".5s">
+					<a href="single.html"><div class="product-img">
+						<img src="images/wp6.jpg" alt="" />
+						<div class="p-mask">
+							<form action="#" method="post">
+								<input type="hidden" name="cmd" value="_cart" />
+								<input type="hidden" name="add" value="1" /> 
+								<input type="hidden" name="w3ls1_item" value="Casual dress" /> 
+								<input type="hidden" name="amount" value="160.00" /> 
+								<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+							</form>
+						</div>
+					</div></a>
+					
+					<h4>Casual dress</h4>
+					<h5>$160.00</h5>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			
+				
+				
+			</div>
+			
+			
+</div>
+</div>
+<div id="section3" class="container-fluid">
+  <div id="saree" >
+			<div >
+				<div id="saree" class="col-md-4" data-wow-delay=".5s">
+					<a href="single.html"><div class="product-img">
+						<img src="images/sa1.jpg" alt="saree" width="304" height="350"/>
+						<div class="p-mask">
+							<form action="#" method="post">
+								<input type="hidden" name="cmd" value="_cart" />
+								<input type="hidden" name="add" value="1" /> 
+								<input type="hidden" name="w3ls1_item" value="saree" /> 
+								<input type="hidden" name="amount" value="50.00" /> 
+								<button type="submit">Add to cart</button>
+							</form>
+						</div>
+					</div></a>
+					
+					<h4>Saree</h4>
+					<h5>$50.00</h5>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="section41" class="container-fluid">
+   <div id="skirt" >
+			<div >
+				<div id="skirt" class="col-md-4" data-wow-delay=".5s">
+					<a href="single.html"><div class="product-img">
+						<img src="images/sk1.jpg" alt="saree" width="304" height="350"/>
+						<div class="p-mask">
+							<form action="#" method="post">
+								<input type="hidden" name="cmd" value="_cart" />
+								<input type="hidden" name="add" value="1" /> 
+								<input type="hidden" name="w3ls1_item" value="skirt" /> 
+								<input type="hidden" name="amount" value="60.00" /> 
+								<button type="submit">Add to cart</button>
+							</form>
+						</div>
+					</div></a>
+					
+					<h4>Skirt</h4>
+					<h5>$60.00</h5>
+			</div>
+		</div>
+	</div>
+	<div id="skirt" >
+			<div >
+				<div id="skirt" class="col-md-4" data-wow-delay=".5s">
+					<a href="single.html"><div class="product-img">
+						<img src="images/sk2.jpg" alt="saree" width="304" height="350"/>
+						<div class="p-mask">
+							<form action="#" method="post">
+								<input type="hidden" name="cmd" value="_cart" />
+								<input type="hidden" name="add" value="1" /> 
+								<input type="hidden" name="w3ls1_item" value="skirt" /> 
+								<input type="hidden" name="amount" value="40.00" /> 
+								<button type="submit">Add to cart</button>
+							</form>
+						</div>
+					</div></a>
+					
+					<h4>Skirt</h4>
+					<h5>$40.00</h5>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="section42" class="container-fluid">
+  <div  >
+			<div >
+				<div  class="col-md-4" data-wow-delay=".5s">
+					<a href="single.html"><div class="product-img">
+						<img src="images/j1.jpg" alt="jeans" width="304" height="350"/>
+						<div class="p-mask">
+							<form action="#" method="post">
+								<input type="hidden" name="cmd" value="_cart" />
+								<input type="hidden" name="add" value="1" /> 
+								<input type="hidden" name="w3ls1_item" value="jeans" /> 
+								<input type="hidden" name="amount" value="50.00" /> 
+								<button type="submit">Add to cart</button>
+							</form>
+						</div>
+					</div></a>
+					
+					<h4>jeans</h4>
+					<h5>$50.00</h5>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="section2" class="container-fluid">
+ <div  >
+			<div >
+				<div  class="col-md-4" data-wow-delay=".5s">
+					<a href="single.html"><div class="product-img">
+						<img src="images/sh1.jpg" alt="shirt" width="304" height="350"/>
+						<div class="p-mask">
+							<form action="#" method="post">
+								<input type="hidden" name="cmd" value="_cart" />
+								<input type="hidden" name="add" value="1" /> 
+								<input type="hidden" name="w3ls1_item" value="shirt" /> 
+								<input type="hidden" name="amount" value="50.00" /> 
+								<button type="submit">Add to cart</button>
+							</form>
+						</div>
+					</div></a>
+					
+					<h4>shirt</h4>
+					<h5>$50.00</h5>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
